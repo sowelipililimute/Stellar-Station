@@ -1,0 +1,567 @@
+- type: entity
+  parent: Error
+  id: ErrorAirlockChiefJusticeLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockClerkLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockClownLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockCorpsmanGlassLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockExternalGlassSalvageLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockJusticeGlass
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockJusticeLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMailGlassLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMailLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMaintJusticeLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMaintLibraryLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMaintMailLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMimeLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockMusicianLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockProsecutorLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockPsychologistGlassLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockPsychologistLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockReporterLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAirlockSurgeryGlassLocked
+
+- type: entity
+  parent: Error
+  id: ErrorAsteroidAltRock
+
+- type: entity
+  parent: Error
+  id: ErrorAsteroidAltRockMining
+
+- type: entity
+  parent: Error
+  id: ErrorAsteroidRockOreCrab
+
+- type: entity
+  parent: Error
+  id: ErrorAutoclave
+
+- type: entity
+  parent: Error
+  id: ErrorBedsheetDetective
+
+- type: entity
+  parent: Error
+  id: ErrorBedsheetWarden
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaCorner
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaCorpCorner
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaCorpLeft
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaCorpMiddle
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaCorpRight
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaLeft
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaMiddle
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSofaRight
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSteelLeft
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSteelMiddle
+
+- type: entity
+  parent: Error
+  id: ErrorBenchSteelRight
+
+- type: entity
+  parent: Error
+  id: ErrorBlastDoorUnlinkedEngineering
+
+- type: entity
+  parent: Error
+  id: ErrorBookGorlexGirlfriends
+
+- type: entity
+  parent: Error
+  id: ErrorBoxEncryptionKeyTraffic
+
+- type: entity
+  parent: Error
+  id: ErrorBoxReamBright
+
+- type: entity
+  parent: Error
+  id: ErrorBoxReamClassic
+
+- type: entity
+  parent: Error
+  id: ErrorClosetWallOrangeFilled
+
+- type: entity
+  parent: Error
+  id: ErrorCryogenicSleepUnitSpawnerPrisoner
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconChiefJustice
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconClerk
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconJustice
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconMailroom
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconProsecutor
+
+- type: entity
+  parent: Error
+  id: ErrorDefaultStationBeaconPsychologist
+
+- type: entity
+  parent: Error
+  id: ErrorDrinkJuiceAppleJuicebox
+
+- type: entity
+  parent: Error
+  id: ErrorDrinkJuiceGrapeJuicebox
+
+- type: entity
+  parent: Error
+  id: ErrorDrinkJuiceOrangeJuicebox
+
+- type: entity
+  parent: Error
+  id: ErrorDrinkPremiumGinBottleFull
+
+- type: entity
+  parent: Error
+  id: ErrorDrinkPremiumVodkaBottleFull
+
+- type: entity
+  parent: Error
+  id: ErrorDVSmartFridgeMedical
+
+- type: entity
+  parent: Error
+  id: ErrorEngineeringTechFab
+
+- type: entity
+  parent: Error
+  id: ErrorFoodGumball
+
+- type: entity
+  parent: Error
+  id: ErrorFoodLollipop
+
+- type: entity
+  parent: Error
+  id: ErrorFoodPear
+
+- type: entity
+  parent: Error
+  id: ErrorGunSafeAdjutantShotgun
+
+- type: entity
+  parent: Error
+  id: ErrorGunSafeVulcanRifle
+
+- type: entity
+  parent: Error
+  id: ErrorKitchenDeepFryer
+
+- type: entity
+  parent: Error
+  id: ErrorLandMineHE
+
+- type: entity
+  parent: Error
+  id: ErrorLandMineShrapnel
+
+- type: entity
+  parent: Error
+  id: ErrorLockerArmoryStorage
+
+- type: entity
+  parent: Error
+  id: ErrorLockerPsychologistFilled
+
+- type: entity
+  parent: Error
+  id: ErrorLockerSurgeonFilled
+
+- type: entity
+  parent: Error
+  id: ErrorLogisticsTechFab
+
+- type: entity
+  parent: Error
+  id: ErrorMailMetricsCartridge
+
+- type: entity
+  parent: Error
+  id: ErrorMailTeleporter
+
+- type: entity
+  parent: Error
+  id: ErrorN14ChairOfficeErgonomic
+
+- type: entity
+  parent: Error
+  id: ErrorN14LightSmall
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableCounterMetal
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableDeskMetal
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableDeskWood
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableDeskWood2
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableMetalGrate
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableWoodRound
+
+- type: entity
+  parent: Error
+  id: ErrorN14TableWoodStand
+
+- type: entity
+  parent: Error
+  id: ErrorOilJarOlive
+
+- type: entity
+  parent: Error
+  id: ErrorPillCanisterGranibitulari
+
+- type: entity
+  parent: Error
+  id: ErrorPlantBox
+
+- type: entity
+  parent: Error
+  id: ErrorPlushieFelinid
+
+- type: entity
+  parent: Error
+  id: ErrorPlushieFeroxi
+
+- type: entity
+  parent: Error
+  id: ErrorPlushieHarpy
+
+- type: entity
+  parent: Error
+  id: ErrorPlushieMothRandom
+
+- type: entity
+  parent: Error
+  id: ErrorPosterContrabandBreadLies
+
+- type: entity
+  parent: Error
+  id: ErrorPosterContrabandGotWood
+
+- type: entity
+  parent: Error
+  id: ErrorPosterContrabandSafetyMothSyndie
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitBarDrinks
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitCalendar
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitCleanHands
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitEarth
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitEyeChart
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitMail
+
+- type: entity
+  parent: Error
+  id: ErrorPosterLegitSafetyMothPills
+
+- type: entity
+  parent: Error
+  id: ErrorPoweredLightColoredFrostyBlue
+
+- type: entity
+  parent: Error
+  id: ErrorPoweredSmallLightMaintenance
+
+- type: entity
+  parent: Error
+  id: ErrorPrisonKnife
+
+- type: entity
+  parent: Error
+  id: ErrorRailingCornerDeltaV
+
+- type: entity
+  parent: Error
+  id: ErrorRailingCornerDeltaVGrey
+
+- type: entity
+  parent: Error
+  id: ErrorRailingCornerSmallDeltaV
+
+- type: entity
+  parent: Error
+  id: ErrorRailingDeltaV
+
+- type: entity
+  parent: Error
+  id: ErrorRailingDeltaVGrey
+
+- type: entity
+  parent: Error
+  id: ErrorRandomBook
+
+- type: entity
+  parent: Error
+  id: ErrorRandomCrystalSpawner
+
+- type: entity
+  parent: Error
+  id: ErrorSecBreachingHammer
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetCaptain
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetDetective
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetHoP
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetHoS
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetLO
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetLogistics
+
+- type: entity
+  parent: Error
+  id: ErrorSecureCabinetSecurity
+
+- type: entity
+  parent: Error
+  id: ErrorServiceTechFab
+
+- type: entity
+  parent: Error
+  id: ErrorShotgunSafeSpawner
+
+- type: entity
+  parent: Error
+  id: ErrorShuttleManipulator
+
+- type: entity
+  parent: Error
+  id: ErrorSignBrigmed
+
+- type: entity
+  parent: Error
+  id: ErrorSignConspiracyBoard
+
+- type: entity
+  parent: Error
+  id: ErrorSignDisposalProper
+
+- type: entity
+  parent: Error
+  id: ErrorSkimmer
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnMobCatClippy
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnMobCMOPetSilvia
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnMobSecDogLaika
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnPointMedicalBorg
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnPointPrisoner
+
+- type: entity
+  parent: Error
+  id: ErrorSpawnPointSurgeon
+
+- type: entity
+  parent: Error
+  id: ErrorSuitStorageCorpsman
+
+- type: entity
+  parent: Error
+  id: ErrorSuitStorageParamedic
+
+- type: entity
+  parent: Error
+  id: ErrorSuitStorageSecDeltaV
+
+- type: entity
+  parent: Error
+  id: ErrorSuperweaponSafeSpawner
+
+- type: entity
+  parent: Error
+  id: ErrorTableWoodReinforced
+
+- type: entity
+  parent: Error
+  id: ErrorToyRenault
+
+- type: entity
+  parent: Error
+  id: ErrorVendingMachineCourierDrobe
+
+- type: entity
+  parent: Error
+  id: ErrorWallRockBluespace
+
+- type: entity
+  parent: Error
+  id: ErrorWashingMachine
+
+- type: entity
+  parent: Error
+  id: ErrorWeaponPistolViperWood
+
+- type: entity
+  parent: Error
+  id: ErrorWeaponTurretAI
+
+- type: entity
+  parent: Error
+  id: ErrorWindoorSecureHydroponicsLocked
+
+- type: entity
+  parent: Error
+  id: ErrorWindoorSecureMailLocked
+
+- type: entity
+  parent: Error
+  id: ErrorWindowTintedReinforcedDirectional
+
+- type: entity
+  parent: Error
+  id: ErrorWoodenKegRootBeer

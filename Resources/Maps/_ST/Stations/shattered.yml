@@ -8089,7 +8089,7 @@ entities:
     - type: Transform
       pos: 31.5,-96.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockChiefJusticeLocked
   entities:
   - uid: 167
     components:
@@ -8110,14 +8110,14 @@ entities:
     - type: Transform
       pos: -69.5,16.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockClerkLocked
   entities:
   - uid: 170
     components:
     - type: Transform
       pos: 11.5,9.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockClownLocked
   entities:
   - uid: 171
     components:
@@ -8180,7 +8180,7 @@ entities:
     - type: Transform
       pos: 72.5,-10.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockCorpsmanGlassLocked
   entities:
   - uid: 172
     components:
@@ -8454,7 +8454,7 @@ entities:
     - type: Transform
       pos: 47.5,-55.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockExternalGlassSalvageLocked
   entities:
   - uid: 220
     components:
@@ -8945,7 +8945,7 @@ entities:
     - type: Transform
       pos: -37.5,-17.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockJusticeGlass
   entities:
   - uid: 308
     components:
@@ -8977,7 +8977,7 @@ entities:
     - type: Transform
       pos: 1.5,-1.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockJusticeLocked
   entities:
   - uid: 314
     components:
@@ -9023,14 +9023,14 @@ entities:
     - type: Transform
       pos: -1.5,0.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMailGlassLocked
   entities:
   - uid: 320
     components:
     - type: Transform
       pos: 24.5,-40.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMailLocked
   entities:
   - uid: 321
     components:
@@ -9493,7 +9493,7 @@ entities:
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
-- proto: Error
+- proto: ErrorAirlockMaintJusticeLocked
   entities:
   - uid: 408
     components:
@@ -9512,7 +9512,7 @@ entities:
     - type: Transform
       pos: -51.5,-28.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMaintLibraryLocked
   entities:
   - uid: 411
     components:
@@ -9536,7 +9536,7 @@ entities:
     - type: Transform
       pos: -65.5,-9.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMaintMailLocked
   entities:
   - uid: 415
     components:
@@ -9707,28 +9707,28 @@ entities:
     - type: Transform
       pos: -40.5,18.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMimeLocked
   entities:
   - uid: 441
     components:
     - type: Transform
       pos: 3.5,-50.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockMusicianLocked
   entities:
   - uid: 442
     components:
     - type: Transform
       pos: -31.5,-45.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockProsecutorLocked
   entities:
   - uid: 443
     components:
     - type: Transform
       pos: 3.5,0.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockPsychologistGlassLocked
   entities:
   - uid: 444
     components:
@@ -9737,7 +9737,7 @@ entities:
     - type: Transform
       pos: -39.5,-1.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockPsychologistLocked
   entities:
   - uid: 445
     components:
@@ -9765,7 +9765,7 @@ entities:
     - type: Transform
       pos: 19.5,-64.5
       parent: 2
-- proto: Error
+- proto: ErrorAirlockReporterLocked
   entities:
   - uid: 449
     components:
@@ -9989,7 +9989,7 @@ entities:
     - type: Transform
       pos: -11.5,42.5
       parent: 16194
-- proto: Error
+- proto: ErrorAirlockSurgeryGlassLocked
   entities:
   - uid: 476
     components:
@@ -11853,7 +11853,7 @@ entities:
     - type: Transform
       pos: 38.25453,-52.586998
       parent: 2
-- proto: Error
+- proto: ErrorAsteroidAltRock
   entities:
   - uid: 703
     components:
@@ -11891,7 +11891,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 69.5,-71.5
       parent: 2
-- proto: Error
+- proto: ErrorAsteroidAltRockMining
   entities:
   - uid: 710
     components:
@@ -11913,7 +11913,7 @@ entities:
     - type: Transform
       pos: 67.5,-69.5
       parent: 2
-- proto: Error
+- proto: ErrorAsteroidRockOreCrab
   entities:
   - uid: 714
     components:
@@ -12148,7 +12148,7 @@ entities:
     - type: Transform
       pos: 9.5,-109.5
       parent: 2
-- proto: Error
+- proto: ErrorAutoclave
   entities:
   - uid: 757
     components:
@@ -12498,7 +12498,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -66.5,13.5
       parent: 2
-- proto: Error
+- proto: ErrorBedsheetDetective
   entities:
   - uid: 806
     components:
@@ -12711,7 +12711,7 @@ entities:
     - type: Transform
       pos: 42.5,-23.5
       parent: 2
-- proto: Error
+- proto: ErrorBedsheetWarden
   entities:
   - uid: 840
     components:
@@ -12758,7 +12758,7 @@ entities:
     - type: Transform
       pos: -5.5,-16.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaCorner
   entities:
   - uid: 846
     components:
@@ -12777,7 +12777,7 @@ entities:
     - type: Transform
       pos: 43.5,-78.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaCorpCorner
   entities:
   - uid: 849
     components:
@@ -12797,7 +12797,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -50.5,-46.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaCorpLeft
   entities:
   - uid: 852
     components:
@@ -12846,7 +12846,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 33.5,-71.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaCorpMiddle
   entities:
   - uid: 860
     components:
@@ -12871,7 +12871,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 34.5,-71.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaCorpRight
   entities:
   - uid: 864
     components:
@@ -12920,7 +12920,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 35.5,-71.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaLeft
   entities:
   - uid: 872
     components:
@@ -12946,7 +12946,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 43.5,-79.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaMiddle
   entities:
   - uid: 876
     components:
@@ -12959,7 +12959,7 @@ entities:
     - type: Transform
       pos: 42.5,-78.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSofaRight
   entities:
   - uid: 878
     components:
@@ -12984,7 +12984,7 @@ entities:
     - type: Transform
       pos: 41.5,-78.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSteelLeft
   entities:
   - uid: 882
     components:
@@ -13020,7 +13020,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 18.5,-41.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSteelMiddle
   entities:
   - uid: 888
     components:
@@ -13056,7 +13056,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -37.5,-14.5
       parent: 2
-- proto: Error
+- proto: ErrorBenchSteelRight
   entities:
   - uid: 894
     components:
@@ -13278,7 +13278,7 @@ entities:
     - type: Transform
       pos: -41.5,-51.5
       parent: 2
-- proto: Error
+- proto: ErrorBlastDoorUnlinkedEngineering
   entities:
   - uid: 910
     components:
@@ -13340,7 +13340,7 @@ entities:
       parent: 914
     - type: Physics
       canCollide: False
-- proto: Error
+- proto: ErrorBookGorlexGirlfriends
   entities:
   - uid: 918
     components:
@@ -13752,7 +13752,7 @@ entities:
     - type: Transform
       pos: 72.5,-1.5
       parent: 2
-- proto: Error
+- proto: ErrorBoxEncryptionKeyTraffic
   entities:
   - uid: 16052
     components:
@@ -13856,7 +13856,7 @@ entities:
     - type: Transform
       pos: -47.818333,-6.11652
       parent: 2
-- proto: Error
+- proto: ErrorBoxReamBright
   entities:
   - uid: 987
     components:
@@ -13868,7 +13868,7 @@ entities:
     - type: Transform
       pos: 41.666004,-1.966876
       parent: 2
-- proto: Error
+- proto: ErrorBoxReamClassic
   entities:
   - uid: 989
     components:
@@ -32361,7 +32361,7 @@ entities:
     - type: Transform
       pos: -33.5,-11.5
       parent: 2
-- proto: Error
+- proto: ErrorClosetWallOrangeFilled
   entities:
   - uid: 4552
     components:
@@ -33703,7 +33703,7 @@ entities:
     - type: Transform
       pos: -41.484436,5.606615
       parent: 2
-- proto: Error
+- proto: ErrorCryogenicSleepUnitSpawnerPrisoner
   entities:
   - uid: 4706
     components:
@@ -34072,14 +34072,14 @@ entities:
     - type: Transform
       pos: -49.5,-6.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconChiefJustice
   entities:
   - uid: 4768
     components:
     - type: Transform
       pos: 6.5,7.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconClerk
   entities:
   - uid: 4769
     components:
@@ -34161,7 +34161,7 @@ entities:
     - type: Transform
       pos: -35.5,-19.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconJustice
   entities:
   - uid: 4781
     components:
@@ -34189,7 +34189,7 @@ entities:
     - type: Transform
       pos: -49.5,-46.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconMailroom
   entities:
   - uid: 4785
     components:
@@ -34224,14 +34224,14 @@ entities:
     - type: Transform
       pos: 40.5,-16.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconProsecutor
   entities:
   - uid: 4790
     components:
     - type: Transform
       pos: 5.5,1.5
       parent: 2
-- proto: Error
+- proto: ErrorDefaultStationBeaconPsychologist
   entities:
   - uid: 4791
     components:
@@ -38753,7 +38753,7 @@ entities:
     - type: Transform
       pos: 4.734195,-52.402397
       parent: 2
-- proto: Error
+- proto: ErrorDrinkJuiceAppleJuicebox
   entities:
   - uid: 5563
     components:
@@ -38761,7 +38761,7 @@ entities:
       parent: 5559
     - type: Physics
       canCollide: False
-- proto: Error
+- proto: ErrorDrinkJuiceGrapeJuicebox
   entities:
   - uid: 5564
     components:
@@ -38769,7 +38769,7 @@ entities:
       parent: 5559
     - type: Physics
       canCollide: False
-- proto: Error
+- proto: ErrorDrinkJuiceOrangeJuicebox
   entities:
   - uid: 5565
     components:
@@ -38805,7 +38805,7 @@ entities:
     - type: Transform
       pos: 30.432737,13.794168
       parent: 2
-- proto: Error
+- proto: ErrorDrinkPremiumGinBottleFull
   entities:
   - uid: 5547
     components:
@@ -38813,7 +38813,7 @@ entities:
       parent: 5544
     - type: Physics
       canCollide: False
-- proto: Error
+- proto: ErrorDrinkPremiumVodkaBottleFull
   entities:
   - uid: 16280
     components:
@@ -38913,7 +38913,7 @@ entities:
     - type: Transform
       pos: 29.703962,13.714174
       parent: 2
-- proto: Error
+- proto: ErrorDVSmartFridgeMedical
   entities:
   - uid: 5580
     components:
@@ -38930,7 +38930,7 @@ entities:
     - type: Transform
       pos: -59.5,-5.5
       parent: 2
-- proto: Error
+- proto: ErrorEngineeringTechFab
   entities:
   - uid: 5583
     components:
@@ -42548,7 +42548,7 @@ entities:
     - type: Transform
       pos: -28.499743,-28.834366
       parent: 2
-- proto: Error
+- proto: ErrorFoodGumball
   entities:
   - uid: 6005
     components:
@@ -42560,7 +42560,7 @@ entities:
     - type: Transform
       pos: -39.843575,5.592285
       parent: 2
-- proto: Error
+- proto: ErrorFoodLollipop
   entities:
   - uid: 6007
     components:
@@ -42628,7 +42628,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: Error
+- proto: ErrorFoodPear
   entities:
   - uid: 6016
     components:
@@ -73134,7 +73134,7 @@ entities:
     - type: Transform
       pos: 1.5,77.5
       parent: 16194
-- proto: Error
+- proto: ErrorGunSafeAdjutantShotgun
   entities:
   - uid: 9976
     components:
@@ -73179,7 +73179,7 @@ entities:
     - type: Transform
       pos: 43.5,5.5
       parent: 2
-- proto: Error
+- proto: ErrorGunSafeVulcanRifle
   entities:
   - uid: 9983
     components:
@@ -73752,7 +73752,7 @@ entities:
     - type: Transform
       pos: 48.489357,-77.520515
       parent: 2
-- proto: Error
+- proto: ErrorKitchenDeepFryer
   entities:
   - uid: 10060
     components:
@@ -73937,12 +73937,6 @@ entities:
     - type: Transform
       pos: 6.6107717,-56.179024
       parent: 2
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 10088
 - proto: LampGold
   entities:
   - uid: 5
@@ -73955,22 +73949,6 @@ entities:
     - type: Transform
       pos: 71.47898,-47.245956
       parent: 2
-    - type: HandheldLight
-      toggleActionEntity: 9
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 10
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 9
-    - type: Physics
-      canCollide: True
-    - type: ActionsContainer
   - uid: 10089
     components:
     - type: Transform
@@ -74036,7 +74014,7 @@ entities:
     - type: Transform
       pos: 76.4285,-80.52861
       parent: 2
-- proto: Error
+- proto: ErrorLandMineHE
   entities:
   - uid: 10101
     components:
@@ -74083,7 +74061,7 @@ entities:
     - type: Transform
       pos: 77.562195,-84.41826
       parent: 2
-- proto: Error
+- proto: ErrorLandMineShrapnel
   entities:
   - uid: 10110
     components:
@@ -74233,7 +74211,7 @@ entities:
         11465:
         - - Pressed
           - Toggle
-- proto: Error
+- proto: ErrorLockerArmoryStorage
   entities:
   - uid: 10122
     components:
@@ -74624,7 +74602,7 @@ entities:
     - type: Transform
       pos: 31.5,-8.5
       parent: 2
-- proto: Error
+- proto: ErrorLockerPsychologistFilled
   entities:
   - uid: 10160
     components:
@@ -74730,7 +74708,7 @@ entities:
     - type: Transform
       pos: -6.5,62.5
       parent: 16194
-- proto: Error
+- proto: ErrorLockerSurgeonFilled
   entities:
   - uid: 10172
     components:
@@ -74773,7 +74751,7 @@ entities:
     - type: Transform
       pos: 10.5,-61.5
       parent: 2
-- proto: Error
+- proto: ErrorLogisticsTechFab
   entities:
   - uid: 10179
     components:
@@ -74824,14 +74802,14 @@ entities:
     - type: Transform
       pos: 25.02685,-14.395308
       parent: 2
-- proto: Error
+- proto: ErrorMailMetricsCartridge
   entities:
   - uid: 10188
     components:
     - type: Transform
       pos: 20.612843,-58.29856
       parent: 2
-- proto: Error
+- proto: ErrorMailTeleporter
   entities:
   - uid: 10189
     components:
@@ -75604,7 +75582,7 @@ entities:
     - type: Transform
       pos: 9.446085,-82.44572
       parent: 2
-- proto: Error
+- proto: ErrorN14ChairOfficeErgonomic
   entities:
   - uid: 10319
     components:
@@ -75630,7 +75608,7 @@ entities:
     - type: Transform
       pos: 19.5,-59.5
       parent: 2
-- proto: Error
+- proto: ErrorN14LightSmall
   entities:
   - uid: 10323
     components:
@@ -75644,7 +75622,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 52.5,-11.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableCounterMetal
   entities:
   - uid: 10325
     components:
@@ -75652,7 +75630,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -62.5,19.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableDeskMetal
   entities:
   - uid: 10326
     components:
@@ -75660,14 +75638,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: -62.5,17.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableDeskWood
   entities:
   - uid: 10327
     components:
     - type: Transform
       pos: 0.5,-83.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableDeskWood2
   entities:
   - uid: 10328
     components:
@@ -75675,7 +75653,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 30.5,13.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableMetalGrate
   entities:
   - uid: 10329
     components:
@@ -75732,14 +75710,14 @@ entities:
     - type: Transform
       pos: 82.5,-15.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableWoodRound
   entities:
   - uid: 10332
     components:
     - type: Transform
       pos: -38.5,-44.5
       parent: 2
-- proto: Error
+- proto: ErrorN14TableWoodStand
   entities:
   - uid: 10333
     components:
@@ -75833,7 +75811,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 36.5,-45.5
       parent: 2
-- proto: Error
+- proto: ErrorOilJarOlive
   entities:
   - uid: 10349
     components:
@@ -76224,7 +76202,7 @@ entities:
     - type: Transform
       pos: 43.300938,-68.39452
       parent: 2
-- proto: Error
+- proto: ErrorPillCanisterGranibitulari
   entities:
   - uid: 10416
     components:
@@ -76250,7 +76228,7 @@ entities:
     - type: Transform
       pos: 52.399143,-15.563512
       parent: 2
-- proto: Error
+- proto: ErrorPlantBox
   entities:
   - uid: 10420
     components:
@@ -76527,21 +76505,21 @@ entities:
     - type: Transform
       pos: 48.5,9.5
       parent: 2
-- proto: Error
+- proto: ErrorPlushieFelinid
   entities:
   - uid: 10466
     components:
     - type: Transform
       pos: 31.345757,-1.3604279
       parent: 2
-- proto: Error
+- proto: ErrorPlushieFeroxi
   entities:
   - uid: 10467
     components:
     - type: Transform
       pos: -46.177452,-20.721153
       parent: 2
-- proto: Error
+- proto: ErrorPlushieHarpy
   entities:
   - uid: 10468
     components:
@@ -76555,7 +76533,7 @@ entities:
     - type: Transform
       pos: 36.390484,13.295208
       parent: 2
-- proto: Error
+- proto: ErrorPlushieMothRandom
   entities:
   - uid: 10470
     components:
@@ -76637,7 +76615,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 2.5,-82.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterContrabandBreadLies
   entities:
   - uid: 10483
     components:
@@ -76659,7 +76637,7 @@ entities:
     - type: Transform
       pos: 51.5,8.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterContrabandGotWood
   entities:
   - uid: 10486
     components:
@@ -76703,7 +76681,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 27.5,12.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterContrabandSafetyMothSyndie
   entities:
   - uid: 10492
     components:
@@ -76744,7 +76722,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -55.5,2.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitBarDrinks
   entities:
   - uid: 10498
     components:
@@ -76763,7 +76741,7 @@ entities:
     - type: Transform
       pos: 16.5,-37.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitCalendar
   entities:
   - uid: 10501
     components:
@@ -76777,7 +76755,7 @@ entities:
     - type: Transform
       pos: 19.5,-57.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitCleanHands
   entities:
   - uid: 10503
     components:
@@ -76791,14 +76769,14 @@ entities:
     - type: Transform
       pos: 38.5,-63.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitEarth
   entities:
   - uid: 10505
     components:
     - type: Transform
       pos: 28.5,-38.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitEyeChart
   entities:
   - uid: 10506
     components:
@@ -76818,7 +76796,7 @@ entities:
     - type: Transform
       pos: 42.5,-52.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitMail
   entities:
   - uid: 10509
     components:
@@ -76855,7 +76833,7 @@ entities:
     - type: Transform
       pos: -53.5,-11.5
       parent: 2
-- proto: Error
+- proto: ErrorPosterLegitSafetyMothPills
   entities:
   - uid: 10514
     components:
@@ -79159,7 +79137,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 5.5,54.5
       parent: 16194
-- proto: Error
+- proto: ErrorPoweredLightColoredFrostyBlue
   entities:
   - uid: 10863
     components:
@@ -79583,7 +79561,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -2.5,52.5
       parent: 16194
-- proto: Error
+- proto: ErrorPoweredSmallLightMaintenance
   entities:
   - uid: 10929
     components:
@@ -79871,7 +79849,7 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
-- proto: Error
+- proto: ErrorPrisonKnife
   entities:
   - uid: 10979
     components:
@@ -80357,7 +80335,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 78.5,-71.5
       parent: 2
-- proto: Error
+- proto: ErrorRailingCornerDeltaV
   entities:
   - uid: 11067
     components:
@@ -80371,7 +80349,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 32.5,-53.5
       parent: 2
-- proto: Error
+- proto: ErrorRailingCornerDeltaVGrey
   entities:
   - uid: 11069
     components:
@@ -80404,7 +80382,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 36.5,-58.5
       parent: 2
-- proto: Error
+- proto: ErrorRailingCornerSmallDeltaV
   entities:
   - uid: 11074
     components:
@@ -80416,7 +80394,7 @@ entities:
     - type: Transform
       pos: 40.5,-53.5
       parent: 2
-- proto: Error
+- proto: ErrorRailingDeltaV
   entities:
   - uid: 11076
     components:
@@ -80559,7 +80537,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 39.5,-53.5
       parent: 2
-- proto: Error
+- proto: ErrorRailingDeltaVGrey
   entities:
   - uid: 11100
     components:
@@ -80734,7 +80712,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 77.5,-6.5
       parent: 2
-- proto: Error
+- proto: ErrorRandomBook
   entities:
   - uid: 11129
     components:
@@ -80776,7 +80754,7 @@ entities:
     - type: Transform
       pos: -2.5489526,81.73114
       parent: 16194
-- proto: Error
+- proto: ErrorRandomCrystalSpawner
   entities:
   - uid: 11135
     components:
@@ -82290,49 +82268,49 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 78.5,-74.5
       parent: 2
-- proto: Error
+- proto: ErrorSecBreachingHammer
   entities:
   - uid: 11415
     components:
     - type: Transform
       pos: 39.502674,4.642235
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetCaptain
   entities:
   - uid: 11416
     components:
     - type: Transform
       pos: 66.5,-43.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetDetective
   entities:
   - uid: 11417
     components:
     - type: Transform
       pos: 31.5,15.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetHoP
   entities:
   - uid: 11418
     components:
     - type: Transform
       pos: -41.5,-52.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetHoS
   entities:
   - uid: 11419
     components:
     - type: Transform
       pos: 20.5,-14.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetLO
   entities:
   - uid: 11420
     components:
     - type: Transform
       pos: 17.5,-62.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetLogistics
   entities:
   - uid: 11421
     components:
@@ -82344,7 +82322,7 @@ entities:
     - type: Transform
       pos: 32.5,-52.5
       parent: 2
-- proto: Error
+- proto: ErrorSecureCabinetSecurity
   entities:
   - uid: 11423
     components:
@@ -82375,7 +82353,7 @@ entities:
     - type: Transform
       pos: 53.5,-13.5
       parent: 2
-- proto: Error
+- proto: ErrorServiceTechFab
   entities:
   - uid: 11428
     components:
@@ -82577,7 +82555,7 @@ entities:
           - 5565
           - 5562
           - 5566
-- proto: Error
+- proto: ErrorShotgunSafeSpawner
   entities:
   - uid: 11443
     components:
@@ -82752,7 +82730,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: Error
+- proto: ErrorShuttleManipulator
   entities:
   - uid: 11474
     components:
@@ -83021,7 +82999,7 @@ entities:
     - type: Transform
       pos: -2.5,78.5
       parent: 16194
-- proto: Error
+- proto: ErrorSignBrigmed
   entities:
   - uid: 11479
     components:
@@ -83054,7 +83032,7 @@ entities:
     - type: Transform
       pos: -54.5,16.5
       parent: 2
-- proto: Error
+- proto: ErrorSignConspiracyBoard
   entities:
   - uid: 11484
     components:
@@ -83068,7 +83046,7 @@ entities:
     - type: Transform
       pos: -49.5,26.5
       parent: 2
-- proto: Error
+- proto: ErrorSignDisposalProper
   entities:
   - uid: 11486
     components:
@@ -83343,7 +83321,7 @@ entities:
     - type: Transform
       pos: 8.5,77.5
       parent: 16194
-- proto: Error
+- proto: ErrorSkimmer
   entities:
   - uid: 16457
     components:
@@ -83437,14 +83415,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: -35.5,-41.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnMobCatClippy
   entities:
   - uid: 11537
     components:
     - type: Transform
       pos: 29.5,-39.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnMobCMOPetSilvia
   entities:
   - uid: 11538
     components:
@@ -83491,7 +83469,7 @@ entities:
     - type: Transform
       pos: 23.5,-67.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnMobSecDogLaika
   entities:
   - uid: 11545
     components:
@@ -83635,7 +83613,7 @@ entities:
     - type: Transform
       pos: -46.5,-47.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnPointMedicalBorg
   entities:
   - uid: 11569
     components:
@@ -83732,7 +83710,7 @@ entities:
     - type: Transform
       pos: -48.5,0.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnPointPrisoner
   entities:
   - uid: 11586
     components:
@@ -83788,7 +83766,7 @@ entities:
     - type: Transform
       pos: 42.5,-78.5
       parent: 2
-- proto: Error
+- proto: ErrorSpawnPointSurgeon
   entities:
   - uid: 11596
     components:
@@ -84191,7 +84169,7 @@ entities:
     - type: Transform
       pos: -67.5,15.5
       parent: 2
-- proto: Error
+- proto: ErrorSuitStorageCorpsman
   entities:
   - uid: 11652
     components:
@@ -84289,7 +84267,7 @@ entities:
     - type: Transform
       pos: 20.5,-12.5
       parent: 2
-- proto: Error
+- proto: ErrorSuitStorageParamedic
   entities:
   - uid: 11666
     components:
@@ -84356,7 +84334,7 @@ entities:
     - type: Transform
       pos: 37.5,-79.5
       parent: 2
-- proto: Error
+- proto: ErrorSuitStorageSecDeltaV
   entities:
   - uid: 11675
     components:
@@ -84390,7 +84368,7 @@ entities:
     - type: Transform
       pos: 44.5,-2.5
       parent: 2
-- proto: Error
+- proto: ErrorSuperweaponSafeSpawner
   entities:
   - uid: 11681
     components:
@@ -86438,7 +86416,7 @@ entities:
     - type: Transform
       pos: 4.5,71.5
       parent: 16194
-- proto: Error
+- proto: ErrorTableWoodReinforced
   entities:
   - uid: 11999
     components:
@@ -86767,7 +86745,7 @@ entities:
     - type: Transform
       pos: -47.69697,-48.232292
       parent: 2
-- proto: Error
+- proto: ErrorToyRenault
   entities:
   - uid: 12037
     components:
@@ -86992,7 +86970,7 @@ entities:
     - type: Transform
       pos: -49.5,-35.5
       parent: 2
-- proto: Error
+- proto: ErrorVendingMachineCourierDrobe
   entities:
   - uid: 12062
     components:
@@ -96465,7 +96443,7 @@ entities:
     - type: Transform
       pos: 23.5,-112.5
       parent: 2
-- proto: Error
+- proto: ErrorWallRockBluespace
   entities:
   - uid: 13898
     components:
@@ -107571,7 +107549,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 6.5,-107.5
       parent: 2
-- proto: Error
+- proto: ErrorWashingMachine
   entities:
   - uid: 15842
     components:
@@ -107702,7 +107680,7 @@ entities:
     - type: Transform
       pos: 32.389973,5.6705856
       parent: 2
-- proto: Error
+- proto: ErrorWeaponPistolViperWood
   entities:
   - uid: 10185
     components:
@@ -107728,7 +107706,7 @@ entities:
     - type: Transform
       pos: 76.88324,-84.002754
       parent: 2
-- proto: Error
+- proto: ErrorWeaponTurretAI
   entities:
   - uid: 15506
     components:
@@ -108093,7 +108071,7 @@ entities:
     - type: Transform
       pos: -41.5,-51.5
       parent: 2
-- proto: Error
+- proto: ErrorWindoorSecureHydroponicsLocked
   entities:
   - uid: 15900
     components:
@@ -108178,7 +108156,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 6.5,63.5
       parent: 16194
-- proto: Error
+- proto: ErrorWindoorSecureMailLocked
   entities:
   - uid: 15909
     components:
@@ -108711,7 +108689,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -2.5,52.5
       parent: 16194
-- proto: Error
+- proto: ErrorWindowTintedReinforcedDirectional
   entities:
   - uid: 15956
     components:
@@ -108828,7 +108806,7 @@ entities:
     - type: Transform
       pos: -45.5,-44.5
       parent: 2
-- proto: Error
+- proto: ErrorWoodenKegRootBeer
   entities:
   - uid: 15975
     components:
