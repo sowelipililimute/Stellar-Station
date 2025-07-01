@@ -1,0 +1,17 @@
+- type: tile
+  id: FloorGrassShattered
+  name: shattered grass
+  sprite: /Textures/_ST/Tileset/Floors/Shattered_Grass/shatteredgrass.png
+  baseTurf: FloorDirt
+  isSubfloor: true
+  edgeSpritePriority: 2
+  edgeSprites:
+    South: /Textures/_ST/Tileset/Floors/Shattered_Grass/shatteredgrass_south.png
+    East: /Textures/_ST/Tileset/Floors/Shattered_Grass/shatteredgrass_east.png
+    North: /Textures/_ST/Tileset/Floors/Shattered_Grass/shatteredgrass_north.png
+    West: /Textures/_ST/Tileset/Floors/Shattered_Grass/shatteredgrass_west.png
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemGrassJungle
+  heatCapacity: 10000
+  weather: true
