@@ -1,0 +1,321 @@
+- type: entity
+  parent: AirlockSecurityLocked
+  id: AirlockBrigmedicLocked
+  suffix: Brigmedic, Locked
+
+- type: entity
+  parent: AirlockSecurityGlassLocked
+  id: AirlockBrigmedicGlassLocked
+  suffix: Brigmedic, Locked
+
+- type: entity
+  parent: AirlockServiceGlassLocked
+  id: AirlockClownGlassLocked
+  suffix: Clown, Locked
+
+- type: entity
+  parent: AirlockServiceLocked
+  id: AirlockClownLocked
+  suffix: Clown, Locked
+
+- type: entity
+  parent: AirlockServiceGlassLocked
+  id: AirlockMimeGlassLocked
+  suffix: Mime, Locked
+
+- type: entity
+  parent: AirlockServiceLocked
+  id: AirlockMimeLocked
+  suffix: Mime, Locked
+
+- type: entity
+  parent: AirlockServiceGlassLocked
+  id: AirlockMusicianGlassLocked
+  suffix: Musician, Locked
+
+- type: entity
+  parent: AirlockServiceLocked
+  id: AirlockMusicianLocked
+  suffix: Musician, Locked
+
+- type: entity
+  parent: AirlockServiceGlassLocked
+  id: AirlockReporterGlassLocked
+  suffix: Reporter, Locked
+
+- type: entity
+  parent: AirlockServiceLocked
+  id: AirlockReporterLocked
+  suffix: Reporter, Locked
+
+- type: entity
+  parent: AirlockServiceGlassLocked
+  id: AirlockLibraryGlassLocked
+  suffix: Library, Locked
+
+- type: entity
+  parent: AirlockServiceLocked
+  id: AirlockLibraryLocked
+  suffix: Library, Locked
+
+- type: entity
+  parent: AirlockMaintServiceLocked
+  id: AirlockMaintLibraryLocked
+  suffix: Library, Locked
+
+- type: entity
+  parent: AirlockMedicalGlassLocked
+  id: AirlockPsychologistGlassLocked
+  suffix: Psychologist, Locked
+
+- type: entity
+  parent: AirlockMedicalLocked
+  id: AirlockPsychologistLocked
+  suffix: Psychologist, Locked
+
+- type: entity
+  parent: AirlockMedicalGlassLocked
+  id: AirlockSurgeryGlassLocked
+  suffix: Surgery, Locked
+
+- type: entity
+  parent: AirlockMedicalLocked
+  id: AirlockSurgeryLocked
+  suffix: Surgery, Locked
+
+- type: entity
+  parent: AirlockExternalGlassLocked
+  id: AirlockExternalGlassSalvageLocked
+  suffix: External, Glass, Salvage, Locked
+
+- type: entity
+  parent: AirlockCargoGlassLocked
+  id: AirlockMailGlassLocked
+  suffix: Mail, Locked
+
+- type: entity
+  parent: AirlockCargoLocked
+  id: AirlockMailLocked
+  suffix: Mail, Locked
+
+- type: entity
+  parent: AirlockMaintCargoLocked
+  id: AirlockMaintMailLocked
+  suffix: Mail, Locked
+
+- type: entity
+  parent: SuitStorageBase
+  id: SuitStorageBrigmedic
+  suffix: Brigmedic
+
+- type: entity
+  parent: SuitStorageBase
+  id: SuitStorageParamedic
+  suffix: Paramedic
+
+- type: entity
+  parent: WindoorSecureServiceLocked
+  id: WindoorSecureHydroponicsLocked
+  suffix: Hydroponics, Locked
+
+- type: entity
+  parent: WindoorSecureCargoLocked
+  id: WindoorSecureMailLocked
+  suffix: Mail, Locked
+
+- type: entity
+  abstract: true
+  parent: BaseMachineCircuitboard
+  id: BaseTechFabCircuitboardStellar
+  components:
+  - type: MachineBoard
+    stackRequirements:
+      Manipulator: 4
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
+
+- type: entity
+  parent: BaseTechFabCircuitboardStellar
+  id: TechFabCircuitboardEngineering
+  name: engineering techfab machine board
+  description: A machine printed circuit board for an engineering techfab.
+  components:
+  - type: Sprite
+    state: engineering
+  - type: MachineBoard
+    prototype: TechFabEngineering
+
+- type: entity
+  parent: BaseTechFabCircuitboardStellar
+  id: TechFabCircuitboardCargo
+  name: cargo techfab machine board
+  description: A machine printed circuit board for a cargo techfab.
+  components:
+  - type: Sprite
+    state: supply
+  - type: MachineBoard
+    prototype: TechFabCargo
+
+- type: entity
+  parent: BaseTechFabCircuitboardStellar
+  id: TechFabCircuitboardService
+  name: service techfab machine board
+  description: A machine printed circuit board for a service techfab.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: TechFabService
+
+- type: entity
+  parent: BaseTechFabCircuitboardStellar
+  id: TechFabCircuitboardScience
+  name: science techfab machine board
+  description: A machine printed circuit board for a science techfab.
+  components:
+  - type: Sprite
+    state: science
+  - type: MachineBoard
+    prototype: TechFabScience
+
+- type: entity
+  parent: BaseLatheLube
+  id: BaseTechFabDepartamental
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/techfab.rsi
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+
+- type: entity
+  parent: BaseTechFabDepartamental
+  id: TechFabEngineering
+  name: engineering techfab
+  description: Prints equipment for engineers.
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: engi
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    staticPacks:
+    - ToolsStatic
+    - PartsStatic
+    - AtmosStatic
+    - CablesStatic
+    - PowerCellsStatic
+    - ElectronicsStatic
+    - LightsStatic
+    - MaterialsStatic
+    dynamicPacks:
+    - AdvancedTools
+    - PowerCells
+    - AtmosTools
+    - EngineeringWeapons
+    - FauxTiles
+    - Equipment
+  - type: Machine
+    board: TechFabCircuitboardEngineering
+
+- type: entity
+  parent: BaseTechFabDepartamental
+  id: TechFabCargo
+  name: cargo techfab
+  description: Prints equipment for the logistics department.
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: cargo
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    staticPacks:
+    - ToolsStatic
+    - PartsStatic
+    - CablesStatic
+    - CargoStatic
+    dynamicPacks:
+    - Equipment
+    - Mining
+  - type: Machine
+    board: TechFabCircuitboardCargo
+
+- type: entity
+  parent: BaseTechFabDepartamental
+  id: TechFabService
+  name: service techfab
+  description: Prints equipment for the service department.
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: service
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    staticPacks:
+    - CablesStatic
+    - LightsStatic
+    - ServiceStatic
+    dynamicPacks:
+    - Janitor
+    - Instruments
+  - type: Machine
+    board: TechFabCircuitboardService
+
+- type: entity
+  parent: BaseTechFabDepartamental
+  id: TechFabScience
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: sci
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    staticPacks:
+    - ToolsStatic
+    - PartsStatic
+    - CablesStatic
+    - MaterialsStatic
+    - BasicChemistryStatic
+    - ChemistryStatic
+    dynamicPacks:
+    - ScienceEquipment
+    - ScienceClothing
+    - ScienceWeapons
+    - Chemistry
+  - type: Machine
+    board: TechFabCircuitboardScience
