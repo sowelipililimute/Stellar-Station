@@ -1,567 +1,709 @@
 - type: entity
   parent: Error
   id: ErrorAirlockChiefJusticeLocked
+  name: error AirlockChiefJusticeLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockClerkLocked
+  name: error AirlockClerkLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockClownLocked
+  name: error AirlockClownLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockCorpsmanGlassLocked
+  name: error AirlockCorpsmanGlassLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockExternalGlassSalvageLocked
+  name: error AirlockExternalGlassSalvageLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockJusticeGlass
+  name: error AirlockJusticeGlass
 
 - type: entity
   parent: Error
   id: ErrorAirlockJusticeLocked
+  name: error AirlockJusticeLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMailGlassLocked
+  name: error AirlockMailGlassLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMailLocked
+  name: error AirlockMailLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMaintJusticeLocked
+  name: error AirlockMaintJusticeLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMaintLibraryLocked
+  name: error AirlockMaintLibraryLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMaintMailLocked
+  name: error AirlockMaintMailLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMimeLocked
+  name: error AirlockMimeLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockMusicianLocked
+  name: error AirlockMusicianLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockProsecutorLocked
+  name: error AirlockProsecutorLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockPsychologistGlassLocked
+  name: error AirlockPsychologistGlassLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockPsychologistLocked
+  name: error AirlockPsychologistLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockReporterLocked
+  name: error AirlockReporterLocked
 
 - type: entity
   parent: Error
   id: ErrorAirlockSurgeryGlassLocked
+  name: error AirlockSurgeryGlassLocked
 
 - type: entity
   parent: Error
   id: ErrorAsteroidAltRock
+  name: error AsteroidAltRock
 
 - type: entity
   parent: Error
   id: ErrorAsteroidAltRockMining
+  name: error AsteroidAltRockMining
 
 - type: entity
   parent: Error
   id: ErrorAsteroidRockOreCrab
+  name: error AsteroidRockOreCrab
 
 - type: entity
   parent: Error
   id: ErrorAutoclave
+  name: error Autoclave
 
 - type: entity
   parent: Error
   id: ErrorBedsheetDetective
+  name: error BedsheetDetective
 
 - type: entity
   parent: Error
   id: ErrorBedsheetWarden
+  name: error BedsheetWarden
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaCorner
+  name: error BenchSofaCorner
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaCorpCorner
+  name: error BenchSofaCorpCorner
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaCorpLeft
+  name: error BenchSofaCorpLeft
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaCorpMiddle
+  name: error BenchSofaCorpMiddle
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaCorpRight
+  name: error BenchSofaCorpRight
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaLeft
+  name: error BenchSofaLeft
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaMiddle
+  name: error BenchSofaMiddle
 
 - type: entity
   parent: Error
   id: ErrorBenchSofaRight
+  name: error BenchSofaRight
 
 - type: entity
   parent: Error
   id: ErrorBenchSteelLeft
+  name: error BenchSteelLeft
 
 - type: entity
   parent: Error
   id: ErrorBenchSteelMiddle
+  name: error BenchSteelMiddle
 
 - type: entity
   parent: Error
   id: ErrorBenchSteelRight
+  name: error BenchSteelRight
 
 - type: entity
   parent: Error
   id: ErrorBlastDoorUnlinkedEngineering
+  name: error BlastDoorUnlinkedEngineering
 
 - type: entity
   parent: Error
   id: ErrorBookGorlexGirlfriends
+  name: error BookGorlexGirlfriends
 
 - type: entity
   parent: Error
   id: ErrorBoxEncryptionKeyTraffic
+  name: error BoxEncryptionKeyTraffic
 
 - type: entity
   parent: Error
   id: ErrorBoxReamBright
+  name: error BoxReamBright
 
 - type: entity
   parent: Error
   id: ErrorBoxReamClassic
+  name: error BoxReamClassic
 
 - type: entity
   parent: Error
   id: ErrorClosetWallOrangeFilled
+  name: error ClosetWallOrangeFilled
 
 - type: entity
   parent: Error
   id: ErrorCryogenicSleepUnitSpawnerPrisoner
+  name: error CryogenicSleepUnitSpawnerPrisoner
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconChiefJustice
+  name: error DefaultStationBeaconChiefJustice
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconClerk
+  name: error DefaultStationBeaconClerk
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconJustice
+  name: error DefaultStationBeaconJustice
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconMailroom
+  name: error DefaultStationBeaconMailroom
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconProsecutor
+  name: error DefaultStationBeaconProsecutor
 
 - type: entity
   parent: Error
   id: ErrorDefaultStationBeaconPsychologist
+  name: error DefaultStationBeaconPsychologist
 
 - type: entity
   parent: Error
   id: ErrorDrinkJuiceAppleJuicebox
+  name: error DrinkJuiceAppleJuicebox
 
 - type: entity
   parent: Error
   id: ErrorDrinkJuiceGrapeJuicebox
+  name: error DrinkJuiceGrapeJuicebox
 
 - type: entity
   parent: Error
   id: ErrorDrinkJuiceOrangeJuicebox
+  name: error DrinkJuiceOrangeJuicebox
 
 - type: entity
   parent: Error
   id: ErrorDrinkPremiumGinBottleFull
+  name: error DrinkPremiumGinBottleFull
 
 - type: entity
   parent: Error
   id: ErrorDrinkPremiumVodkaBottleFull
+  name: error DrinkPremiumVodkaBottleFull
 
 - type: entity
   parent: Error
   id: ErrorDVSmartFridgeMedical
+  name: error DVSmartFridgeMedical
 
 - type: entity
   parent: Error
   id: ErrorEngineeringTechFab
+  name: error EngineeringTechFab
 
 - type: entity
   parent: Error
   id: ErrorFoodGumball
+  name: error FoodGumball
 
 - type: entity
   parent: Error
   id: ErrorFoodLollipop
+  name: error FoodLollipop
 
 - type: entity
   parent: Error
   id: ErrorFoodPear
+  name: error FoodPear
 
 - type: entity
   parent: Error
   id: ErrorGunSafeAdjutantShotgun
+  name: error GunSafeAdjutantShotgun
 
 - type: entity
   parent: Error
   id: ErrorGunSafeVulcanRifle
+  name: error GunSafeVulcanRifle
 
 - type: entity
   parent: Error
   id: ErrorKitchenDeepFryer
+  name: error KitchenDeepFryer
 
 - type: entity
   parent: Error
   id: ErrorLandMineHE
+  name: error LandMineHE
 
 - type: entity
   parent: Error
   id: ErrorLandMineShrapnel
+  name: error LandMineShrapnel
 
 - type: entity
   parent: Error
   id: ErrorLockerArmoryStorage
+  name: error LockerArmoryStorage
 
 - type: entity
   parent: Error
   id: ErrorLockerPsychologistFilled
+  name: error LockerPsychologistFilled
 
 - type: entity
   parent: Error
   id: ErrorLockerSurgeonFilled
+  name: error LockerSurgeonFilled
 
 - type: entity
   parent: Error
   id: ErrorLogisticsTechFab
+  name: error LogisticsTechFab
 
 - type: entity
   parent: Error
   id: ErrorMailMetricsCartridge
+  name: error MailMetricsCartridge
 
 - type: entity
   parent: Error
   id: ErrorMailTeleporter
+  name: error MailTeleporter
 
 - type: entity
   parent: Error
   id: ErrorN14ChairOfficeErgonomic
+  name: error N14ChairOfficeErgonomic
 
 - type: entity
   parent: Error
   id: ErrorN14LightSmall
+  name: error N14LightSmall
 
 - type: entity
   parent: Error
   id: ErrorN14TableCounterMetal
+  name: error N14TableCounterMetal
 
 - type: entity
   parent: Error
   id: ErrorN14TableDeskMetal
+  name: error N14TableDeskMetal
 
 - type: entity
   parent: Error
   id: ErrorN14TableDeskWood
+  name: error N14TableDeskWood
 
 - type: entity
   parent: Error
   id: ErrorN14TableDeskWood2
+  name: error N14TableDeskWood2
 
 - type: entity
   parent: Error
   id: ErrorN14TableMetalGrate
+  name: error N14TableMetalGrate
 
 - type: entity
   parent: Error
   id: ErrorN14TableWoodRound
+  name: error N14TableWoodRound
 
 - type: entity
   parent: Error
   id: ErrorN14TableWoodStand
+  name: error N14TableWoodStand
 
 - type: entity
   parent: Error
   id: ErrorOilJarOlive
+  name: error OilJarOlive
 
 - type: entity
   parent: Error
   id: ErrorPillCanisterGranibitulari
+  name: error PillCanisterGranibitulari
 
 - type: entity
   parent: Error
   id: ErrorPlantBox
+  name: error PlantBox
 
 - type: entity
   parent: Error
   id: ErrorPlushieFelinid
+  name: error PlushieFelinid
 
 - type: entity
   parent: Error
   id: ErrorPlushieFeroxi
+  name: error PlushieFeroxi
 
 - type: entity
   parent: Error
   id: ErrorPlushieHarpy
+  name: error PlushieHarpy
 
 - type: entity
   parent: Error
   id: ErrorPlushieMothRandom
+  name: error PlushieMothRandom
 
 - type: entity
   parent: Error
   id: ErrorPosterContrabandBreadLies
+  name: error PosterContrabandBreadLies
 
 - type: entity
   parent: Error
   id: ErrorPosterContrabandGotWood
+  name: error PosterContrabandGotWood
 
 - type: entity
   parent: Error
   id: ErrorPosterContrabandSafetyMothSyndie
+  name: error PosterContrabandSafetyMothSyndie
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitBarDrinks
+  name: error PosterLegitBarDrinks
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitCalendar
+  name: error PosterLegitCalendar
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitCleanHands
+  name: error PosterLegitCleanHands
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitEarth
+  name: error PosterLegitEarth
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitEyeChart
+  name: error PosterLegitEyeChart
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitMail
+  name: error PosterLegitMail
 
 - type: entity
   parent: Error
   id: ErrorPosterLegitSafetyMothPills
+  name: error PosterLegitSafetyMothPills
 
 - type: entity
   parent: Error
   id: ErrorPoweredLightColoredFrostyBlue
+  name: error PoweredLightColoredFrostyBlue
 
 - type: entity
   parent: Error
   id: ErrorPoweredSmallLightMaintenance
+  name: error PoweredSmallLightMaintenance
 
 - type: entity
   parent: Error
   id: ErrorPrisonKnife
+  name: error PrisonKnife
 
 - type: entity
   parent: Error
   id: ErrorRailingCornerDeltaV
+  name: error RailingCornerDeltaV
 
 - type: entity
   parent: Error
   id: ErrorRailingCornerDeltaVGrey
+  name: error RailingCornerDeltaVGrey
 
 - type: entity
   parent: Error
   id: ErrorRailingCornerSmallDeltaV
+  name: error RailingCornerSmallDeltaV
 
 - type: entity
   parent: Error
   id: ErrorRailingDeltaV
+  name: error RailingDeltaV
 
 - type: entity
   parent: Error
   id: ErrorRailingDeltaVGrey
+  name: error RailingDeltaVGrey
 
 - type: entity
   parent: Error
   id: ErrorRandomBook
+  name: error RandomBook
 
 - type: entity
   parent: Error
   id: ErrorRandomCrystalSpawner
+  name: error RandomCrystalSpawner
 
 - type: entity
   parent: Error
   id: ErrorSecBreachingHammer
+  name: error SecBreachingHammer
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetCaptain
+  name: error SecureCabinetCaptain
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetDetective
+  name: error SecureCabinetDetective
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetHoP
+  name: error SecureCabinetHoP
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetHoS
+  name: error SecureCabinetHoS
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetLO
+  name: error SecureCabinetLO
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetLogistics
+  name: error SecureCabinetLogistics
 
 - type: entity
   parent: Error
   id: ErrorSecureCabinetSecurity
+  name: error SecureCabinetSecurity
 
 - type: entity
   parent: Error
   id: ErrorServiceTechFab
+  name: error ServiceTechFab
 
 - type: entity
   parent: Error
   id: ErrorShotgunSafeSpawner
+  name: error ShotgunSafeSpawner
 
 - type: entity
   parent: Error
   id: ErrorShuttleManipulator
+  name: error ShuttleManipulator
 
 - type: entity
   parent: Error
   id: ErrorSignBrigmed
+  name: error SignBrigmed
 
 - type: entity
   parent: Error
   id: ErrorSignConspiracyBoard
+  name: error SignConspiracyBoard
 
 - type: entity
   parent: Error
   id: ErrorSignDisposalProper
+  name: error SignDisposalProper
 
 - type: entity
   parent: Error
   id: ErrorSkimmer
+  name: error Skimmer
 
 - type: entity
   parent: Error
   id: ErrorSpawnMobCatClippy
+  name: error SpawnMobCatClippy
 
 - type: entity
   parent: Error
   id: ErrorSpawnMobCMOPetSilvia
+  name: error SpawnMobCMOPetSilvia
 
 - type: entity
   parent: Error
   id: ErrorSpawnMobSecDogLaika
+  name: error SpawnMobSecDogLaika
 
 - type: entity
   parent: Error
   id: ErrorSpawnPointMedicalBorg
+  name: error SpawnPointMedicalBorg
 
 - type: entity
   parent: Error
   id: ErrorSpawnPointPrisoner
+  name: error SpawnPointPrisoner
 
 - type: entity
   parent: Error
   id: ErrorSpawnPointSurgeon
+  name: error SpawnPointSurgeon
 
 - type: entity
   parent: Error
   id: ErrorSuitStorageCorpsman
+  name: error SuitStorageCorpsman
 
 - type: entity
   parent: Error
   id: ErrorSuitStorageParamedic
+  name: error SuitStorageParamedic
 
 - type: entity
   parent: Error
   id: ErrorSuitStorageSecDeltaV
+  name: error SuitStorageSecDeltaV
 
 - type: entity
   parent: Error
   id: ErrorSuperweaponSafeSpawner
+  name: error SuperweaponSafeSpawner
 
 - type: entity
   parent: Error
   id: ErrorTableWoodReinforced
+  name: error TableWoodReinforced
 
 - type: entity
   parent: Error
   id: ErrorToyRenault
+  name: error ToyRenault
 
 - type: entity
   parent: Error
   id: ErrorVendingMachineCourierDrobe
+  name: error VendingMachineCourierDrobe
 
 - type: entity
   parent: Error
   id: ErrorWallRockBluespace
+  name: error WallRockBluespace
 
 - type: entity
   parent: Error
   id: ErrorWashingMachine
+  name: error WashingMachine
 
 - type: entity
   parent: Error
   id: ErrorWeaponPistolViperWood
+  name: error WeaponPistolViperWood
 
 - type: entity
   parent: Error
   id: ErrorWeaponTurretAI
+  name: error WeaponTurretAI
 
 - type: entity
   parent: Error
   id: ErrorWindoorSecureHydroponicsLocked
+  name: error WindoorSecureHydroponicsLocked
 
 - type: entity
   parent: Error
   id: ErrorWindoorSecureMailLocked
+  name: error WindoorSecureMailLocked
 
 - type: entity
   parent: Error
   id: ErrorWindowTintedReinforcedDirectional
+  name: error WindowTintedReinforcedDirectional
 
 - type: entity
   parent: Error
   id: ErrorWoodenKegRootBeer
+  name: error WoodenKegRootBeer
