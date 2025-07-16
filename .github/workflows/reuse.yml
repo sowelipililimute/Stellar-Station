@@ -1,0 +1,25 @@
+name: REUSE Compliance Check
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        root:
+        - Content.Server/_ST
+        - Content.Stellar.Client
+        - Content.Stellar.Server
+        - Content.Stellar.Shared
+        - Resources/Audio/_ST
+        - Resources/Maps/_ST
+        - Resources/Prototypes/_ST
+        - Resources/ServerInfo/_ST
+        - Resources/Textures/_ST
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: REUSE Compliance Check
+      uses: fsfe/reuse-action@v4
+      with:
+        args: --root ${{ matrix.root }} lint
