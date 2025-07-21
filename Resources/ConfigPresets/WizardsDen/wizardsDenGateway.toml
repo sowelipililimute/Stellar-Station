@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Wizard's Den Contributors
+#
+# SPDX-License-Identifier: LicenseRef-WizardsDen
+
 # Configuration preset layer for gateway Wizard's Den servers.
 # Intended to be loaded after wizardsDen.toml
 
