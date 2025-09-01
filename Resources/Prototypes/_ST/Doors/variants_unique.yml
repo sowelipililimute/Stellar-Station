@@ -44,6 +44,8 @@
   - type: Tag
     tags:
     - HighSecDoor
+  - type: Paintable
+    group: null
 
 - type: entity
   parent: [ StellarAirlockMixinServiceKitchen, StellarAirlock ]
@@ -68,6 +70,8 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_freezer.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+  - type: Paintable
+    group: null
 
 - type: entity
   parent: [ StellarAirlockMixinExternal, StellarAirlockGlass ]
@@ -95,6 +99,8 @@
   - type: Door
     closedDrawDepth: Mobs
     openDrawDepth: Mobs
+  - type: Paintable
+    group: null
 
 - type: entity
   parent: StellarAirlockGlass
@@ -147,3 +153,5 @@
   components:
   - type: Sprite
     sprite: _ST/Tileset/Doors/Airlocks-Glass/plastitanium-glass.rsi
+  - type: Paintable
+    group: null

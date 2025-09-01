@@ -12,3 +12,5 @@
 # - /Prototypes/Catalog/uplink_catalog.yml
 
 # - /Prototypes/Entities/Structures/Doors
+
+- /Prototypes/Paintable/airlock_groups.yml
