@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Janet Blackquill
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 - type: paintableGroup
   id: StellarAirlock
   time: 3

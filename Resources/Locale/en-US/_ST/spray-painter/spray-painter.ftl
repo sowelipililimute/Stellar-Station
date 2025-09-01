@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Janet Blackquill
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 spray-painter-tab-group-stellarairlock = Standard
 spray-painter-tab-group-stellarairlockglass = Glass
 
