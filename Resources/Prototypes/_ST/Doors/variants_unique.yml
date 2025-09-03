@@ -33,6 +33,16 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_highsecurity.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+    - state: electrified_ai
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.HUD"]
+      shader: unshaded
+      visible: false
+    - state: electrified
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.Sparks"]
+      shader: unshaded
+      visible: false
   - type: Door
     closedDrawDepth: Mobs
     openDrawDepth: Mobs
@@ -70,6 +80,16 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_freezer.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+    - state: electrified_ai
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.HUD"]
+      shader: unshaded
+      visible: false
+    - state: electrified
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.Sparks"]
+      shader: unshaded
+      visible: false
   - type: Paintable
     group: null
 
@@ -96,6 +116,16 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_externals.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+    - state: electrified_ai
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.HUD"]
+      shader: unshaded
+      visible: false
+    - state: electrified
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.Sparks"]
+      shader: unshaded
+      visible: false
   - type: Door
     closedDrawDepth: Mobs
     openDrawDepth: Mobs
@@ -125,6 +155,16 @@
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects_angled.rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
+    - state: electrified_ai
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.HUD"]
+      shader: unshaded
+      visible: false
+    - state: electrified
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.Sparks"]
+      shader: unshaded
+      visible: false
   - type: Door
     closedDrawDepth: Mobs
     openDrawDepth: Mobs

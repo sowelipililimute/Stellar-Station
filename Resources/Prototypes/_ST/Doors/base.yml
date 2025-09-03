@@ -85,6 +85,16 @@
     - state: panel_open
       sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - state: electrified_ai
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.HUD"]
+      shader: unshaded
+      visible: false
+    - state: electrified
+      sprite: _ST/Tileset/Doors/Airlocks/airlock_effects.rsi
+      map: ["enum.ElectrifiedLayers.Sparks"]
+      shader: unshaded
+      visible: false
   - type: Door
     bumpOpen: true
     clickOpen: true
