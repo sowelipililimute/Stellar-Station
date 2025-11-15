@@ -30167,34 +30167,6 @@ entities:
     - type: Transform
       pos: 6.5,5.5
       parent: 2
-- proto: ComputerTelevision
-  entities:
-  - uid: 4616
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,-86.5
-      parent: 2
-  - uid: 4617
-    components:
-    - type: Transform
-      pos: -10.5,-75.5
-      parent: 2
-  - uid: 4618
-    components:
-    - type: Transform
-      pos: -70.5,15.5
-      parent: 2
-  - uid: 4619
-    components:
-    - type: Transform
-      pos: -50.5,-54.5
-      parent: 2
-  - uid: 4620
-    components:
-    - type: Transform
-      pos: 27.5,-64.5
-      parent: 2
 - proto: ContainmentFieldGenerator
   entities:
   - uid: 4621
