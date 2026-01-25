@@ -6,16 +6,13 @@
 - type: entity
   id: StellarWindowBase
   abstract: true
-  parent: Window
+  parent: BaseStructure
   components:
   - type: Sprite
     drawdepth: Walls
   - type: SpriteFade
   - type: Icon
     state: full
-  - type: IconSmooth
-    key: StellarWindow
-    base: window
   - type: PlacementReplacement
     key: walls
   - type: Fixtures
@@ -66,9 +63,6 @@
   - type: InteractionOutline
   - type: Icon
     state: full
-  - type: IconSmooth
-    key: StellarWindow
-    base: window
   - type: PlacementReplacement
     key: walls
   - type: Fixtures
@@ -147,6 +141,11 @@
   name: glass window
   description: A steel wall with a glass window in it.
   components:
+  - type: StellarWallSmooth
+    key: Window
+    otherKeys: [WallSolid]
+    fullState: window
+    fullOtherState: windowred
   - type: Sprite
     sprite: _ST/Tileset/Windows/window_glass_framed.rsi
   - type: Icon

@@ -998,6 +998,12 @@
         - WallLayer
         density: 2000
 
+- type: stellarWallSmoothKey
+  id: WallSolid
+
+- type: stellarWallSmoothKey
+  id: Window
+
 - type: entity
   parent: BaseWall
   id: WallSolid
@@ -1006,7 +1012,10 @@
   - type: Sprite
     # Begin Stellar - Wallening
     sprite: _ST/Tileset/Walls/tallmetal.rsi
-  - type: SpriteFade
+  - type: StellarWallSmooth
+    key: WallSolid
+    fullState: tallmetal
+  # - type: SpriteFade
     # End Stellar - Wallening
   - type: WallReplacementMarker
   - type: Construction
@@ -1040,20 +1049,20 @@
         node: girder
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: IconSmooth
-    key: wallsbase # Stellar begin
-    base: tallmetal
-  - type: RandomIconSmooth
-    randomStates:
-    - tallmetal
-    - tallmetal
-    - tallmetal
-    - tallmetal
-    - tallmetalb
-    - tallmetalc
-    - tallmetald
-    - tallmetald
-  - type: Appearance #Stellar end
+  # - type: IconSmooth
+  #   key: wallsbase # Stellar begin
+  #   base: tallmetal
+  # - type: RandomIconSmooth
+  #   randomStates:
+  #   - tallmetal
+  #   - tallmetal
+  #   - tallmetal
+  #   - tallmetal
+  #   - tallmetalb
+  #   - tallmetalc
+  #   - tallmetald
+  #   - tallmetald
+  # - type: Appearance #Stellar end
 
 - type: entity
   parent: WallDiagonalBase
