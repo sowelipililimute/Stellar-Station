@@ -1,0 +1,5 @@
+- type: stellarWallSmoothKey
+  id: WallSolid
+
+- type: stellarWallSmoothKey
+  id: Window

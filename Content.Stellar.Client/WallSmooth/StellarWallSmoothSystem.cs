@@ -2,11 +2,13 @@ using Robust.Client.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Map.Enumerators;
+using Content.Stellar.Shared.WallSmooth;
 
 namespace Content.Stellar.Client.WallSmooth;
 
 public sealed class StellarWallSmoothSystem : EntitySystem
 {
+    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly SharedMapSystem _map = default!;
     [Dependency] private readonly SpriteSystem _sprite = default!;
 
@@ -27,6 +29,7 @@ public sealed class StellarWallSmoothSystem : EntitySystem
         SubscribeLocalEvent<StellarWallSmoothComponent, AnchorStateChangedEvent>(OnAnchorChanged);
         SubscribeLocalEvent<StellarWallSmoothComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<StellarWallSmoothComponent, ComponentShutdown>(OnShutdown);
+        SubscribeLocalEvent<StellarWallSmoothComponent, AppearanceChangeEvent>(OnAppearanceChange);
 
         _mapGridQuery = GetEntityQuery<MapGridComponent>();
         _spriteQuery = GetEntityQuery<SpriteComponent>();
@@ -200,17 +203,37 @@ public sealed class StellarWallSmoothSystem : EntitySystem
             ? (CornerFill.None, CornerFill.None, CornerFill.None, CornerFill.None)
             : CalculateCornerFill(grid.Value, ent, true);
 
-        ApplyCorners(ent);
+        ApplyCorners(ent, false);
     }
 
-    private void ApplyCorners(Entity<StellarWallSmoothComponent, SpriteComponent> ent)
+    private void OnAppearanceChange(Entity<StellarWallSmoothComponent> ent, ref AppearanceChangeEvent args)
     {
-        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.NEBase, $"{ent.Comp1.FullState}{(int)ent.Comp1.SameCorners.ne}");
-        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.SEBase, $"{ent.Comp1.FullState}{(int)ent.Comp1.SameCorners.se}");
-        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.SWBase, $"{ent.Comp1.FullState}{(int)ent.Comp1.SameCorners.sw}");
-        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.NWBase, $"{ent.Comp1.FullState}{(int)ent.Comp1.SameCorners.nw}");
+        if (!_appearance.TryGetData<string>(ent, RandomWallSmoothState.State, out var state, args.Component))
+            return;
 
-        if (ent.Comp1.FullOtherState is { } otherState)
+        SetFullState(ent, state);
+    }
+
+    private void SetFullState(Entity<StellarWallSmoothComponent> ent, string state)
+    {
+        if (!_spriteQuery.TryGetComponent(ent, out var spriteComp))
+            return;
+
+        ent.Comp.FullState = state;
+        ApplyCorners((ent, ent, spriteComp), false);
+    }
+
+    private void ApplyCorners(Entity<StellarWallSmoothComponent, SpriteComponent> ent, bool down)
+    {
+        var fullState = down && ent.Comp1.DownState is not null ? ent.Comp1.DownState : ent.Comp1.FullState;
+        var otherState = down && ent.Comp1.DownOtherState is not null ? ent.Comp1.DownOtherState : ent.Comp1.DownState;
+
+        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.NEBase, $"{fullState}{(int)ent.Comp1.SameCorners.ne}");
+        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.SEBase, $"{fullState}{(int)ent.Comp1.SameCorners.se}");
+        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.SWBase, $"{fullState}{(int)ent.Comp1.SameCorners.sw}");
+        _sprite.LayerSetRsiState((ent, ent.Comp2), CornerLayers.NWBase, $"{fullState}{(int)ent.Comp1.SameCorners.nw}");
+
+        if (otherState is not null)
         {
             _sprite.LayerSetVisible((ent, ent.Comp2), CornerLayers.NEOther, ent.Comp1.OtherCorners.ne != CornerFill.None);
             _sprite.LayerSetVisible((ent, ent.Comp2), CornerLayers.SEOther, ent.Comp1.OtherCorners.se != CornerFill.None);
