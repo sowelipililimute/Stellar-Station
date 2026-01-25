@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-Wallening
+
 using Robust.Shared.Random;
 
 namespace Content.Stellar.Shared.WallSmooth;

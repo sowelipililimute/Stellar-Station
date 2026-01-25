@@ -1,7 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Janet Blackquill
+#
+# SPDX-License-Identifier: LicenseRef-Wallening
+
 - type: entity
   abstract: true
   id: StellarStructureBase
-  categories: [ ForkFiltered ]
   placement:
     mode: SnapgridCenter
   components:

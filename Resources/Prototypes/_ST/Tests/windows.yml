@@ -13,6 +13,9 @@
   - type: SpriteFade
   - type: Icon
     state: full
+  - type: StellarWallSmooth
+    key: Window
+    fullState: window
   - type: PlacementReplacement
     key: walls
   - type: Fixtures
@@ -63,6 +66,9 @@
   - type: InteractionOutline
   - type: Icon
     state: full
+  - type: StellarWallSmooth
+    key: Window
+    fullState: window
   - type: PlacementReplacement
     key: walls
   - type: Fixtures
@@ -141,11 +147,6 @@
   name: glass window
   description: A steel wall with a glass window in it.
   components:
-  - type: StellarWallSmooth
-    key: Window
-    otherKeys: [WallSolid]
-    fullState: window
-    fullOtherState: windowred
   - type: Sprite
     sprite: _ST/Tileset/Windows/window_glass_framed.rsi
   - type: Icon

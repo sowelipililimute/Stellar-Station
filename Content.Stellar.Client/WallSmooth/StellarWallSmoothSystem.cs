@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Janet Blackquill <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: LicenseRef-Wallening
+
 using Robust.Client.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
