@@ -72,7 +72,7 @@ public sealed class GoalTests : GameTest
 
             _cGoals.GetGoals(cMind);
 
-            var goals = _sGoals.GetGoals(cMind);
+            var goals = _sGoals.GetGoals(sMind);
             Assert.That(goals, Has.Count.EqualTo(0));
         });
 
