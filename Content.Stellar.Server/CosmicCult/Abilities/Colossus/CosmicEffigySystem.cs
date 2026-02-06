@@ -5,13 +5,10 @@
 
 using System.Numerics;
 using Content.Server.Actions;
-using Content.Server.Objectives.Components;
-using Content.Server.Objectives.Systems;
 using Content.Server.Popups;
 using Content.Shared.Maps;
 using Content.Shared.Mind;
 using Content.Shared.Warps;
-using Content.Stellar.Server.CosmicCult.Components;
 using Content.Stellar.Shared.CosmicCult.Components;
 using Content.Stellar.Shared.CosmicCult;
 using Content.Stellar.Shared.Goals;
@@ -23,7 +20,6 @@ namespace Content.Stellar.Server.CosmicCult.Abilities;
 public sealed class CosmicEffigySystem : EntitySystem
 {
     [Dependency] private readonly ActionsSystem _actions = default!;
-    [Dependency] private readonly CodeConditionSystem _codeCondition = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly TurfSystem _turf = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
@@ -46,7 +42,6 @@ public sealed class CosmicEffigySystem : EntitySystem
             return;
 
         _actions.RemoveAction(ent.Owner, ent.Comp.EffigyPlaceActionEntity);
-        _codeCondition.SetCompleted(ent.Owner, ent.Comp.EffigyObjective);
         Spawn(ent.Comp.EffigyPrototype, pos);
         ent.Comp.Timed = false;
     }

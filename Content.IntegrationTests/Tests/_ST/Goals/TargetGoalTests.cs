@@ -32,8 +32,8 @@ public sealed class TargetGoalTests : GameTest
   - type: MobState
 ";
 
-    private static EntProtoId TargetGoalTestsSurviveGoal = "TargetGoalTestsSurviveGoal";
-    private static EntProtoId TargetGoalTestsMobStateMob = "TargetGoalTestsMobStateMob";
+    private const string TargetGoalTestsSurviveGoal = "TargetGoalTestsSurviveGoal";
+    private const string TargetGoalTestsMobStateMob = "TargetGoalTestsMobStateMob";
 
     [System(Side.Server)] private readonly StellarGoalsSystem _goals = default!;
     [System(Side.Server)] private readonly MobStateSystem _mobState = default!;

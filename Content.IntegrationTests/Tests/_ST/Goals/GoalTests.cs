@@ -22,7 +22,7 @@ public sealed class GoalTests : GameTest
   - type: StellarGoal
 ";
 
-    private static EntProtoId<StellarGoalComponent> GoalTestsBlankGoal = "GoalTestsBlankGoal";
+    private const string GoalTestsBlankGoal = "GoalTestsBlankGoal";
 
     [System(Side.Server)] private readonly StellarGoalsSystem _sGoals = default!;
     [System(Side.Client)] private readonly StellarGoalsSystem _cGoals = default!;

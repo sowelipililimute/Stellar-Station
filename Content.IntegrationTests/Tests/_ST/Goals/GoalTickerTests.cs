@@ -28,7 +28,7 @@ public sealed class GoalTickerTests : GameTest
         DummyTicker = false,
     };
 
-    private static EntProtoId<StellarGoalComponent> GoalTickerTestsBlankGoal = "GoalTickerTestsBlankGoal";
+    private const string GoalTickerTestsBlankGoal = "GoalTickerTestsBlankGoal";
 
     [System(Side.Server)] private readonly StellarGoalsSystem _sGoals = default!;
     [System(Side.Server)] private readonly GameTicker _sTicker = default!;
