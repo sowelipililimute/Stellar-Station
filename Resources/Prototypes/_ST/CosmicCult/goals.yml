@@ -14,6 +14,7 @@
 
 - type: entity
   id: CosmicConversionGoal
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
@@ -27,6 +28,7 @@
 
 - type: entity
   id: CosmicEntropyGoal
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
@@ -40,6 +42,7 @@
 
 - type: entity
   id: CosmicMonumentGoal
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
@@ -53,6 +56,7 @@
 
 - type: entity
   id: CosmicFinalityGoal
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
@@ -68,6 +72,7 @@
   id: ColossusSurviveGoal
   name: PERSIST
   description: Persist until the end of all things.
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
@@ -81,6 +86,7 @@
   id: ColossusEffigyGoal
   name: BECKON
   description: Call forth an Effigy of Entropy wherever you desire.
+  categories: [ GameRules ]
   components:
   - type: StellarGoal
     icon:
