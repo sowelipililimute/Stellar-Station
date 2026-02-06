@@ -14,6 +14,7 @@ using Content.Shared.Warps;
 using Content.Stellar.Server.CosmicCult.Components;
 using Content.Stellar.Shared.CosmicCult.Components;
 using Content.Stellar.Shared.CosmicCult;
+using Content.Stellar.Shared.Goals;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Map;
 
@@ -29,6 +30,8 @@ public sealed class CosmicEffigySystem : EntitySystem
     [Dependency] private readonly SharedMapSystem _map = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly StellarGoalsSystem _goals = default!;
+    [Dependency] private readonly StellarNumericGoalSystem _numericGoal = default!;
 
     public override void Initialize()
     {
@@ -86,15 +89,30 @@ public sealed class CosmicEffigySystem : EntitySystem
         }
 
         // IF THE OBJECTIVE OR LOCATION IS MISSING, PLACE IT ANYWHERE
-        if (!_mind.TryGetObjectiveComp<CosmicEffigyConditionComponent>(ent, out var obj) || obj.EffigyTarget == null)
-            return true;
-
-        var targetXform = Transform(obj.EffigyTarget.Value);
-        if (xform.MapID != targetXform.MapID || (_transform.GetWorldPosition(xform) - _transform.GetWorldPosition(targetXform)).LengthSquared() > 15 * 15)
+        if (_mind.TryGetMind(ent, out var mind, out _))
         {
-            if (TryComp<WarpPointComponent>(obj.EffigyTarget, out var warp) && warp.Location is not null)
-                _popup.PopupEntity(Loc.GetString("ghost-role-colossus-effigy-error-location", ("LOCATION", warp.Location)), ent, ent);
-            return false;
+            foreach (var goal in _goals.GetGoals<StellarTargetWarpPointGoalComponent>(mind))
+            {
+                if (!TryComp<StellarTargetedGoalComponent>(goal, out var targetedGoal))
+                    continue;
+
+                if (targetedGoal.Target is not { } target)
+                {
+                    _numericGoal.SetCurrent(goal.Owner, 1d);
+                    break;
+                }
+
+                var targetXform = Transform(target);
+                if (xform.MapID != targetXform.MapID || (_transform.GetWorldPosition(xform) - _transform.GetWorldPosition(targetXform)).LengthSquared() > 15 * 15)
+                {
+                    if (TryComp<WarpPointComponent>(target, out var warp) && warp.Location is not null)
+                        _popup.PopupEntity(Loc.GetString("ghost-role-colossus-effigy-error-location", ("LOCATION", warp.Location)), ent, ent);
+                    return false;
+                }
+
+                _numericGoal.SetCurrent(goal.Owner, 1d);
+                break;
+            }
         }
 
         return true;
