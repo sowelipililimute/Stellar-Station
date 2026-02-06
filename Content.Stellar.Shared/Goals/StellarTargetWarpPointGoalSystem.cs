@@ -8,7 +8,7 @@ using Robust.Shared.Random;
 
 namespace Content.Stellar.Shared.Goals;
 
-public sealed class StellarTargetWarpPointSystem : EntitySystem
+public sealed class StellarTargetWarpPointGoalSystem : EntitySystem
 {
     [Dependency] private readonly StellarTargetedGoalSystem _targetedGoal = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
