@@ -1,0 +1,7 @@
+- type: entity
+  id: StellarBaseStationDefensiveOvercharge
+  abstract: true
+  components:
+  - type: StellarOverchargeable
+    requiredOvercharge: StellarOverchargeDefensive
+  - type: StellarDefensiveOvercharge
