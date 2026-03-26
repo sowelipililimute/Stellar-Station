@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 AftrLite
+//
+// SPDX-License-Identifier: LicenseRef-Wallening
+
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
