@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Janet Blackquill
+//
+// SPDX-License-Identifier: LicenseRef-Wallening
+
 using Content.Server.Administration;
 using Content.Shared.Administration;
 using Content.Stellar.Shared.Overcharge;

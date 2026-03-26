@@ -4,28 +4,24 @@
 
 - type: stellarOvercharge
   id: StellarOverchargeOffensive
-  engineDisplayRsiState: Offensive
   name: overcharge-name-offensive
   announcementText: overcharge-announcement-offensive
   announcementTextHyper: overcharge-announcement-hyper-offensive
 
 - type: stellarOvercharge
   id: StellarOverchargeDefensive
-  engineDisplayRsiState: Defensive
   name: overcharge-name-defensive
   announcementText: overcharge-announcement-defensive
   announcementTextHyper: overcharge-announcement-hyper-defensive
 
 - type: stellarOvercharge
   id: StellarOverchargeCurative
-  engineDisplayRsiState: Curative
   name: overcharge-name-curative
   announcementText: overcharge-announcement-curative
   announcementTextHyper: overcharge-announcement-hyper-curative
 
 - type: stellarOvercharge
   id: StellarOverchargeScientific
-  engineDisplayRsiState: Scientific
   name: overcharge-name-scientific
   announcementText: overcharge-announcement-scientific
   announcementTextHyper: overcharge-announcement-hyper-scientific
