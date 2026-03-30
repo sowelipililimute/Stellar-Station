@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2026 AftrLite
+// SPDX-FileCopyrightText: 2026 Janet Blackquill
+//
+// SPDX-License-Identifier: LicenseRef-Wallening
+
 using Robust.Shared.Random;
 
 namespace Content.Stellar.Shared.Stellarator;
