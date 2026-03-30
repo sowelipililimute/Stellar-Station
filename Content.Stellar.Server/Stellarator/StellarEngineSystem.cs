@@ -185,7 +185,7 @@ public sealed partial class StellarEngineSystem : SharedStellarEngineSystem
         if (ent.Comp.HasActivatedOvercharge && ent.Comp.CurrentOvercharge is not null)
         {
             _chat.DispatchStationAnnouncement(ent, Loc.GetString("announcement-stellarator-shutdown"), Loc.GetString("announcement-stellarator-sender"));
-            _overcharge.ToggleOvercharge(ent.Owner, ent.Comp.CurrentOvercharge, OverchargeState.Disabled);
+            _overcharge.ToggleOvercharge(ent.Owner, null, OverchargeState.Disabled);
         }
 
         Lights.SetColor(ent, Color.Black);
