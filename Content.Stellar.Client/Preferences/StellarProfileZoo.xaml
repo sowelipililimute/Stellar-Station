@@ -1,0 +1,12 @@
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls;assembly=Content.Client"
+    xmlns:layout="clr-namespace:Content.Client._ES.UI.Controls.Layout"
+    xmlns:preferences="clr-namespace:Content.Stellar.Client.Preferences">
+
+    <layout:HFillStack>
+        <preferences:StellarProfileBasics HorizontalExpand="True" VerticalAlignment="Center" Name="Left" Margin="4" />
+        <layout:LowDivider />
+        <preferences:StellarProfileBasics HorizontalExpand="True" VerticalAlignment="Center" Name="Right" Margin="4" />
+    </layout:HFillStack>
+</controls:FancyWindow>

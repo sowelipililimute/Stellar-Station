@@ -1,0 +1,11 @@
+- type: stellarCareer
+  id: StellarCareerCaptain
+  jobs:
+  - StellarJobCommandCaptain
+
+- type: stellarCareer
+  id: StellarCareerEmergencyMedicine
+  jobs:
+  - StellarJobCommandHeadOfMedicine
+  - StellarJobMedicalParamedic
+
