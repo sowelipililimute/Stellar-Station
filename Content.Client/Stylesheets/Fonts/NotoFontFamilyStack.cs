@@ -40,7 +40,7 @@ public sealed class NotoFontFamilyStack(IResourceCache resCache, string variant 
     /// </summary>
     private string[] _extras = new[] { "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf" };
 
-    public HashSet<FontKind> AvailableKinds = [FontKind.Regular, FontKind.Bold, FontKind.Italic, FontKind.BoldItalic];
+    public HashSet<FontKind> AvailableKinds = [FontKind.Regular, FontKind.Bold, FontKind.Italic, FontKind.BoldItalic, FontKind.Medium, FontKind.MediumItalic]; // Stellar - more fonts
 
     /// <summary>
     ///     This should return the paths of every font in this stack given the abstract members.
@@ -50,27 +50,24 @@ public sealed class NotoFontFamilyStack(IResourceCache resCache, string variant 
     private string[] GetFontPaths(FontKind kind)
     {
         if (!AvailableKinds.Contains(kind))
-        {
-            if (kind == FontKind.BoldItalic && AvailableKinds.Contains(FontKind.Bold))
-            {
-                kind = FontKind.Bold;
-            }
-            else
-            {
-                kind = FontKind.Regular;
-            }
-        }
+            throw new InvalidOperationException($"{kind} is not an available kind"); // Stellar - remove bad logic
 
         var simpleKindStr = kind.SimplifyCompound().AsFileName();
-        var boldOrRegularStr = kind.RegularOr(FontKind.Bold).AsFileName();
+        // var boldOrRegularStr = kind.RegularOr(FontKind.Bold).AsFileName(); - Stellar - this is nonsensical
 
         var kindStr = kind.AsFileName();
-        var fontList = new List<string>()
+        var fontList = new List<string>
         {
-            string.Format(_fontPrimary, kindStr, simpleKindStr, boldOrRegularStr),
-            string.Format(_fontSymbols, kindStr, simpleKindStr, boldOrRegularStr),
+            // Begin Stellar - this is nonsensical
+            string.Format(_fontPrimary, kindStr, simpleKindStr, simpleKindStr),
+            string.Format(_fontSymbols, kindStr, simpleKindStr, simpleKindStr),
+            string.Format(_fontSymbols, "Regular", "Regular", "Regular"),
+            // End Stellar - this is nonsensical
         };
+
         fontList.AddRange(_extras);
+
+        fontList.RemoveAll(path => !resCache.TryGetResource<FontResource>(path, out _)); // Stellar - better fallbacking
         return fontList.ToArray();
     }
 

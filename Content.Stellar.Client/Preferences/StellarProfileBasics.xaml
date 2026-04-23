@@ -1,21 +1,27 @@
 <Control xmlns="https://spacestation14.io"
          xmlns:layout="clr-namespace:Content.Client._ES.UI.Controls.Layout">
-    <layout:VStack>
-        <layout:HStack>
-            <Label Text="xxName" HorizontalExpand="True" SizeFlagsStretchRatio="2" />
-            <LineEdit Name="ProfileName" MinWidth="80" HorizontalExpand="True" SizeFlagsStretchRatio="1" />
-        </layout:HStack>
-        <layout:HStack>
-            <Label Text="xxAge" HorizontalExpand="True" />
-            <LineEdit Name="ProfileAge" MinWidth="40" />
-        </layout:HStack>
-        <layout:HStack>
-            <Label Text="xxSex" HorizontalExpand="True" />
-            <OptionButton Name="ProfileSex" />
-        </layout:HStack>
-        <layout:HStack>
-            <Label Text="xxGender" HorizontalExpand="True" />
-            <OptionButton Name="ProfileGender" />
-        </layout:HStack>
+    <layout:VStack StyleClasses="STInsetBox">
+        <Label Text="xxProfile" StyleClasses="LabelHeading" />
+        <layout:LowDivider />
+
+        <layout:VStack StyleClasses="STInsetBox">
+            <Label Text="xxName" HorizontalExpand="True" StyleClasses="STFieldLabel" />
+            <LineEdit Name="ProfileName" MinWidth="80" HorizontalExpand="True" />
+        </layout:VStack>
+
+        <layout:VStack StyleClasses="STInsetBox">
+            <Label Text="xxAge" HorizontalExpand="True" StyleClasses="STFieldLabel" />
+            <LineEdit Name="ProfileAge" HorizontalExpand="True" />
+        </layout:VStack>
+
+        <layout:VStack StyleClasses="STInsetBox">
+            <Label Text="xxSex" HorizontalExpand="True" StyleClasses="STFieldLabel" />
+            <OptionButton Name="ProfileSex" HorizontalExpand="True" />
+        </layout:VStack>
+
+        <layout:VStack StyleClasses="STInsetBox">
+            <Label Text="xxGender" HorizontalExpand="True" StyleClasses="STFieldLabel" />
+            <OptionButton Name="ProfileGender" HorizontalExpand="True" />
+        </layout:VStack>
     </layout:VStack>
 </Control>
