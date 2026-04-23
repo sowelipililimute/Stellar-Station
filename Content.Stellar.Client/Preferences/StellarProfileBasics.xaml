@@ -10,6 +10,11 @@
         </layout:VStack>
 
         <layout:VStack StyleClasses="STInsetBox">
+            <Label Text="xxSpecies" HorizontalExpand="True" StyleClasses="STFieldLabel" />
+            <WrapContainer HorizontalExpand="True" Name="SpeciesBox" />
+        </layout:VStack>
+
+        <layout:VStack StyleClasses="STInsetBox">
             <Label Text="xxAge" HorizontalExpand="True" StyleClasses="STFieldLabel" />
             <LineEdit Name="ProfileAge" HorizontalExpand="True" />
         </layout:VStack>

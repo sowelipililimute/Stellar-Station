@@ -3,20 +3,20 @@
                       xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
                       MouseFilter="Stop"
                       MinWidth="200" MinHeight="150">
-    <PanelContainer StyleClasses="BackgroundPanel" />
+    <PanelContainer StyleClasses="STWindowBackground" />
 
     <BoxContainer Orientation="Vertical">
         <Control>
-            <PanelContainer StyleClasses="WindowHeadingBackground" Name="WindowHeader" />
-            <BoxContainer Margin="4 2 4 0" Orientation="Horizontal">
-                <Label Name="WindowTitle"
-                       HorizontalExpand="True" VAlign="Center" StyleClasses="FancyWindowTitle" ClipText="true" />
-                <TextureButton Name="HelpButton" StyleClasses="windowHelpButton" VerticalAlignment="Center" Disabled="True" Visible="False" Access="Public" />
-                <TextureButton Name="CloseButton" StyleClasses="windowCloseButton"
-                               VerticalAlignment="Center" />
-            </BoxContainer>
+            <PanelContainer StyleClasses="STWindowHeader" Name="WindowHeader">
+                <BoxContainer Margin="4 2 4 0" Orientation="Horizontal">
+                    <Label Name="WindowTitle"
+                           HorizontalExpand="True" VAlign="Center" StyleClasses="FancyWindowTitle" ClipText="true" />
+                    <TextureButton Name="HelpButton" StyleClasses="windowHelpButton" VerticalAlignment="Center" Disabled="True" Visible="False" Access="Public" />
+                    <TextureButton Name="CloseButton" StyleClasses="windowCloseButton"
+                                   VerticalAlignment="Center" />
+                </BoxContainer>
+            </PanelContainer>
         </Control>
-        <PanelContainer StyleClasses="LowDivider" />
-        <Control Access="Public" Name="ContentsContainer" StyleClasses="WindowContentsContainer" RectClipContent="True" VerticalExpand="true" />
+        <Control Access="Public" Name="ContentsContainer" StyleClasses="WindowContentsContainer" RectClipContent="True" VerticalExpand="true" Margin="4" />
     </BoxContainer>
 </controls:FancyWindow>

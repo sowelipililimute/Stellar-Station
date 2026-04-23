@@ -17,10 +17,11 @@ public partial class NanotrasenStylesheet : CommonStylesheet
 
 
     public static readonly ResPath TextureRoot = new("/Textures/Interface/Nano");
+    public static readonly ResPath StellarTextureRoot = new("/Textures/_ST/Interface/Stellar"); // Stellar - our own textures
 
     public override Dictionary<Type, ResPath[]> Roots => new()
     {
-        { typeof(TextureResource), [TextureRoot] },
+        { typeof(TextureResource), [TextureRoot, StellarTextureRoot] },
     };
 
     private const int PrimaryFontSize = 12;
