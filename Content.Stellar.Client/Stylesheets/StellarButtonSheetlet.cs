@@ -35,6 +35,17 @@ public sealed class StellarButtonSheetlet<T> : Sheetlet<T>
                 .PseudoPressed()
                 .Box(box.WithTexture(sheet.StellarTexture(new("Controls/button_pressed.png")))),
 
+            CButton()
+                .PseudoDisabled()
+                .ParentOf(E<Label>())
+                .FontColor(Color.FromHex("#E5E5E581")),
+
+            CButton()
+                .PseudoDisabled()
+                .ParentOf(E())
+                .ParentOf(E<Label>())
+                .FontColor(Color.FromHex("#E5E5E581")),
+
             E<Label>()
                 .Class(ContainerButton.StyleClassButton)
                 .AlignMode(Label.AlignMode.Center),
